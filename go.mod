@@ -1,4 +1,4 @@
-module inet.af/netaddr
+module go.vxfiber.dev/netaddr
 
 go 1.12
 
