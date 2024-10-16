@@ -1,4 +1,4 @@
-# cloning from inet.af/netaddr
+# cloning from inet.af/netaddr to go.vxfiber.dev/netaddr
 
 # netaddr [![Test Status](https://github.com/inetaf/netaddr/workflows/Linux/badge.svg)](https://github.com/inetaf/netaddr/actions) [![Go Reference](https://pkg.go.dev/badge/inet.af/netaddr.svg)](https://pkg.go.dev/inet.af/netaddr)
 
@@ -28,10 +28,10 @@ blog post about why we made a new IP address package.
 
 Other links:
 
-* https://github.com/golang/go/issues/18804 ("net: reconsider representation of IP")
-* https://github.com/golang/go/issues/18757 ("net: ParseIP should return an error, like other Parse functions")
-* https://github.com/golang/go/issues/37921 ("net: Unable to reliably distinguish IPv4-mapped-IPv6 addresses from regular IPv4 addresses")
-* merges net.IPAddr and net.IP (which the Go net package is a little torn between for legacy reasons)
+- https://github.com/golang/go/issues/18804 ("net: reconsider representation of IP")
+- https://github.com/golang/go/issues/18757 ("net: ParseIP should return an error, like other Parse functions")
+- https://github.com/golang/go/issues/37921 ("net: Unable to reliably distinguish IPv4-mapped-IPv6 addresses from regular IPv4 addresses")
+- merges net.IPAddr and net.IP (which the Go net package is a little torn between for legacy reasons)
 
 ## Testing
 

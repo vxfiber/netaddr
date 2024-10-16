@@ -11,11 +11,11 @@
 // comparable (supports == and being a map key), and more. See
 // https://github.com/inetaf/netaddr for background.
 //
-// IPv6 Zones
+// # IPv6 Zones
 //
 // IP and IPPort are the only types in this package that support IPv6
 // zones. Other types silently drop any passed-in zones.
-package netaddr // import "inet.af/netaddr"
+package netaddr // import "go.vxfiber.dev/netaddr"
 
 import (
 	"encoding/binary"

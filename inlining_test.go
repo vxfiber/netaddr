@@ -32,7 +32,7 @@ func TestInlining(t *testing.T) {
 		filepath.Join(runtime.GOROOT(), "bin", "go"+exe),
 		"build",
 		"--gcflags=-m",
-		"inet.af/netaddr").CombinedOutput()
+		"go.vxfiber.dev/netaddr").CombinedOutput()
 	if err != nil {
 		t.Fatalf("go build: %v, %s", err, out)
 	}

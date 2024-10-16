@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"inet.af/netaddr"
+	"go.vxfiber.dev/netaddr"
 )
 
 // The tests for stacktrace errors is in its own file,

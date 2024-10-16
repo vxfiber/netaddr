@@ -9,7 +9,7 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"inet.af/netaddr"
+	"go.vxfiber.dev/netaddr"
 )
 
 func ExampleIP() {
